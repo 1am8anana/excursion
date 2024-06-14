@@ -3,6 +3,8 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -20,15 +22,19 @@ header a {
     text-decoration: none;
 }
 
-#intro video {
-    width: 100%;
-    height: auto;
+#intro {
+    padding: 20px;
 }
 
 #intro h2 {
     font-size: 36px;
     color: white;
     margin-bottom: 20px;
+}
+
+#intro video {
+    width: 100%;
+    height: auto;
 }
 
 #guide {
@@ -69,4 +75,7 @@ footer {
     color: white;
     padding: 1rem;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
