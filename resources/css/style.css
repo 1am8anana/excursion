@@ -25,6 +25,12 @@ header a {
     height: auto;
 }
 
+#intro h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
 #guide {
     padding: 20px;
 }
